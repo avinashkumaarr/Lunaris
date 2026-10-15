@@ -39,8 +39,8 @@ export const Hero: React.FC = () => {
           preload="metadata"
           className="w-full h-full object-cover object-center"
         >
-          <source src="/videos/lunaris-earth-left-to-right-loop.mp4" type="video/mp4" />
-          {/* Fallback image */}
+          <source src={IMAGES.earthLoopVideo} type="video/mp4" />
+          <source src="./videos/lunaris-earth-left-to-right-loop.mp4" type="video/mp4" />
           <img 
             src={IMAGES.earthRise} 
             alt="Lunar surface with Earth rising on the horizon" 

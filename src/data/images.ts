@@ -6,6 +6,7 @@ import malapertPeakImg from '../assets/images/malapert-mountain-peak.jpg';
 import shadowRayImg from '../assets/images/shadow-ray-analysis-diagram.jpg';
 import lunarisInsigniaImg from '../assets/images/lunaris-insignia.png';
 import cinematicClosingImg from '../assets/images/cinematic-closing-corona.jpg';
+import earthLoopVideo from '../assets/videos/lunaris-earth-left-to-right-loop.mp4';
 
 export const IMAGES = {
   earthRise: earthRiseImg,
@@ -16,4 +17,5 @@ export const IMAGES = {
   shadowRay: shadowRayImg,
   lunarisInsignia: lunarisInsigniaImg,
   cinematicClosing: cinematicClosingImg,
+  earthLoopVideo: earthLoopVideo,
 } as const;
